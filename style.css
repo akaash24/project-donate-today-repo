@@ -1,4 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 body{
-    font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Finlandica', sans-serif;
+   
+}
+section{
+   
+}
+.header-banner{
+    background-image: url(images/banner.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.text-box{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+  text-align: center;
+}
+.text-box h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+.text-box h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    border-radius: 7px;
+
 }
