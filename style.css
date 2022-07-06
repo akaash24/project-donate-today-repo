@@ -117,3 +117,28 @@ height: 200px;
     position: absolute; 
     left: 43%;
 }
+.plan{
+    margin: 300px;
+    text-align: center;
+}
+
+.plan-content{
+    font-size: 15px;
+    font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+}
+.row{
+margin-top: 5%;
+display: flex;
+justify-content: space-between;    
+
+}
+.plan-row{
+    flex-basis: 25%;
+    background-color:burlywood;
+    border-radius: 25px;
+    margin-bottom: 5%;
+padding: 20px 12px;   
+ box-sizing: border-box;
+}
