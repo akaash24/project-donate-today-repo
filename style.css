@@ -49,13 +49,16 @@
         border-radius: 15px;
     }
     .donate-today{
-        width: 80%;
+        width: 100%;
         margin: auto;
         text-align: center;
         padding-top: 150px;
 
     }
     .flex-container{
+        margin-left: 10px;
+        margin-right: 20px;
+        background-color: rgb(95, 101, 112);
         margin-top: 80px;
         width: 100%;
         height: auto;
@@ -67,9 +70,9 @@
         width: 200px;
         height: 150px;
         background:linear-gradient(rgb(250,250,250), black);
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 200;
-        color: #030303;
+        color: #074547;
         text-align: center;
         line-height: 150px;
         border-radius: 25px;
@@ -79,7 +82,7 @@
         width: 200px;
         height: 150px;
         background:linear-gradient(white,pink);
-        font-size: 25px;
+        font-size: 35px;
         font-weight: bold;
         text-align: center;
         line-height: 150px;
@@ -104,8 +107,8 @@
         font-family: serif;
         font-size: 30px;
         font-weight: 900;
-        color: rgb(106, 158, 204);
-    
+        color: rgb(21, 44, 63);
+        padding-top: 40px;    
     }
     .link-button-second{
         text-decoration: none;
@@ -137,14 +140,14 @@
     }
     .plan-row{
         flex-basis: 30%;
-        background-color:burlywood;
+        background-color:rgb(88, 143, 116);
         border-radius: 25px;
         padding: 20px 12px; 
       text-align: justify;
     }
 
     .contact-us{
-        background: url(./images/donation2.jpg);
+        background: url(./images/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 30px;
@@ -171,9 +174,14 @@
     }
     
     .email{
-        margin: 70px;
+        height: 200px;
+        text-align: center;
         padding-left: 27%;
         position: relative;
+        background-color: #a794803a;
+        margin: 50px 50px;
+        padding: 60px;
+        border-radius: 10px;
     }
     .email input{
         height: 70px;
@@ -186,7 +194,7 @@
         padding: 15px 12px;
         border: 2px solid white;
         background: black;
-        color: aliceblue;
+        color: rgb(92, 154, 207);
         border-radius: 5px;
         position: relative;
         left: -100px;
@@ -195,5 +203,5 @@
         text-align: center;
         color: #66922d;
         background-color: rgb(21, 34, 46);
-        padding: 15px;
+        padding: 22px;
     }
