@@ -23,12 +23,12 @@
     .text-box{
         position: absolute;
         top: 30%;
-        left: 25%;
+        left: 08%;
         text-align: center;
     }
     .text-header{
         color: black;
-        font-size: 100px;
+        font-size: 60px;
         font-weight: 700;
         text-align: center;
 
@@ -65,24 +65,24 @@
     }
     .flex-box{
         width: 200px;
-        height: auto;
+        height: 150px;
         background:linear-gradient(rgb(250,250,250), black);
         font-size: 25px;
         font-weight: 200;
         color: #030303;
         text-align: center;
-        line-height: 200px;
+        line-height: 150px;
         border-radius: 25px;
         margin: 50px;
     }
     #pink-flexbox{
         width: 200px;
-        height: auto;
+        height: 150px;
         background:linear-gradient(white,pink);
         font-size: 25px;
         font-weight: bold;
         text-align: center;
-        line-height: 200px;
+        line-height: 150px;
         border-radius: 25px;
         margin: 50px;
         border: 5px solid red; 
@@ -116,7 +116,7 @@
         padding: 10px 40px;
         border-radius: 15px;
         position: absolute; 
-        left: 43%;
+        left: 40%;
     }
     .plan{
         margin: 300px;
@@ -126,8 +126,9 @@
     .plan-content{
         font-size: 15px;
         font-weight: 300;
-        line-height: 22px;
         padding: 10px;
+        line-height: 22px;
+
     }
     .column{
     margin-top: 05%;
@@ -135,12 +136,11 @@
     justify-content: space-between;    
     }
     .plan-row{
-        flex-basis: 25%;
+        flex-basis: 30%;
         background-color:burlywood;
         border-radius: 25px;
-        margin-bottom: 5%;
-        padding: 20px 12px;   
-        box-sizing: border-box;
+        padding: 20px 12px; 
+      text-align: justify;
     }
 
     .contact-us{
@@ -169,9 +169,10 @@
         border-radius: 12px;
         color: azure;
     }
+    
     .email{
         margin: 70px;
-        padding-left: 35%;
+        padding-left: 27%;
         position: relative;
     }
     .email input{
