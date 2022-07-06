@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body{
@@ -24,13 +25,13 @@ section{
     left: 25%;
   text-align: center;
 }
-.text-box h1{
-    color: white;
+.text-header{
+    color: black;
     font-size: 100px;
     font-weight: 700;
 }
-.text-box h3{
-    color: white;
+.text-container{
+    color: rgb(184, 184, 184);
     font-size: 30px;
     font-weight: 400;
 }
@@ -41,6 +42,78 @@ section{
     font-weight: 600;
     background-color: #FF5959;
     padding: 10px 40px;
-    border-radius: 7px;
+    border-radius: 15px;
+    
 
+}
+.donate-today{
+    width: 80%;
+    margin: auto;
+text-align: center;
+padding-top: 150px;
+
+}
+.flex-container{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.flex-box{
+    width: 200px;
+    height: auto;
+    background:linear-gradient(rgb(250,250,250), black);
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 25px;
+    margin: 50px;
+}
+#pink-flexbox{
+    width: 200px;
+    height: auto;
+    background:linear-gradient(white,pink);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 25px;
+    margin: 50px;
+    border: 5px solid red; 
+}
+.input-value{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+}
+.input-value input{
+    height: 50%;
+    width: 60%;
+    border: none;
+    border-bottom:2px solid black;
+}
+.input-value label{
+    position: absolute;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(106, 158, 204);
+ 
+}
+.link-button-second{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    border-radius: 15px;
+    position: absolute; 
+    left: 43%;
 }
